@@ -8,7 +8,7 @@ import Mobile from "./navbar";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen bg-background text-foreground  dark:bg-radial-[at_50%_50%] from-sky-950/60 from-10% to-90% to-stone-90">
+    <div className="min-h-screen bg-background text-foreground font-mono dark:bg-radial-[at_50%_50%] from-sky-950/60 from-10% to-90% to-stone-90">
       <header className="fixed top-0 w-full  backdrop-blur-md z-50 transition-all duration-300">
         <Motion
           variants={slideInYVariantsTop}

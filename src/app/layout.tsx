@@ -23,7 +23,7 @@ const defaultOG: OpenGraph = {
 export const metadata: Metadata = {
   title: "Soem Sovanrath",
   description: "My Portfolio",
-   openGraph: {
+  openGraph: {
     ...defaultOG,
   },
 };
@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="dark !scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased font-mono  `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased font-mono `}
       >
         <ThemeProvider
           attribute="class"
