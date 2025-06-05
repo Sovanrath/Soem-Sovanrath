@@ -22,7 +22,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </Link>
 
           <nav className="flex items-center gap-5 max-sm:hidden">
-            {["home", "about", "skill", "contact"].map((item) => (
+            {["home", "about", "skill", "project"].map((item) => (
               <Link key={item} href={`#${item}`}>
                 <p className="text-foreground text-base font-semibold relative hover:text-primary transition-colors duration-300 after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-primary after:bottom-[-5px] after:left-0 after:transition-all after:duration-300 hover:after:w-full">
                   {item.charAt(0).toUpperCase() + item.slice(1)}

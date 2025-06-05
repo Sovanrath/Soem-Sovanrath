@@ -8,7 +8,7 @@ import { Button } from "../UI/button";
 export function Project() {
   return (
     <section
-      id="skill"
+      id="project"
       className=" max-h-full max-sm:max-h-1/3 py-20  max-w-7xl mx-auto flex flex-col items-center px-4 gap-10"
     >
       <Motion
