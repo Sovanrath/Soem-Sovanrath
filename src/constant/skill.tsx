@@ -1,0 +1,15 @@
+export const SkillData = [
+  { image: "/html.png", name: "HTML5" },
+  { image: "/css.png", name: "CSS3" },
+  { image: "/java.jpg", name: "JavaScript" },
+  { image: "/type.jpg", name: "TypeScript " },
+  { image: "/react.png", name: "React" },
+  { image: "/next.png", name: "Next.js" },
+  { image: "/astro.png", name: "Astro " },
+  { image: "/astro-icon-dark.png", name: "Astro " },
+  { image: "/tailwind.png", name: "Tailwind CSS " },
+  { image: "/framer.png", name: "Framer Motion" },
+  { image: "/pocketbase.png", name: "PocketBase" },
+  { image: "/directus.png", name: "Directus" },
+  { image: "/payload.png", name: "Payload" },
+];
