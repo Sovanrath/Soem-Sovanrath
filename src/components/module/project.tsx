@@ -38,14 +38,22 @@ export function Project() {
                   className="rounded-xl w-11/12 h-full  group-hover:scale-105 group-hover:-rotate-2 overflow-hidden duration-500"
                 />
               </div>
-              <h3 className="text-lg font-medium text-center max-sm:text-sm max-md:text-base">
+              <h3 className="text-lg font-bold text-start w-11/12 mx-auto max-sm:text-sm max-md:text-base">
                 {item.name}
               </h3>
 
               <div className="flex gap-5 px-5">
                 <Button
                   asChild
-                  className="dark:hover:inset-shadow-[0_10px_30px_rgba(0,183,235,0.3)] dark:inset-shadow-[0_5px_20px_rgba(0,183,235,0.1)] inset-shadow-2xs hover:inset-shadow-[0_10px_30px_rgba(0,0,0,0.1)]"
+                  className="dark:hover:inset-shadow-[0_10px_30px_rgba(0,183,235,0.3)] dark:inset-shadow-[0_5px_20px_rgba(0,183,235,0.2)] max-sm:hidden inset-shadow-2xs hover:inset-shadow-[0_10px_30px_rgba(0,0,0,0.1)]"
+                >
+                  <Link target="_blank" href={item.url}>
+                    View Project
+                  </Link>
+                </Button>
+                <Button
+                  asChild
+                  className="dark:hover:inset-shadow-[0_10px_30px_rgba(0,183,235,0.3)] dark:inset-shadow-[0_5px_30px_rgba(0,183,235,0.5)] sm:hidden inset-shadow-[0_5px_30px_rgba(0,0,0,0.2)] hover:inset-shadow-[0_10px_30px_rgba(0,0,0,0.1)]"
                 >
                   <Link target="_blank" href={item.url}>
                     View Project

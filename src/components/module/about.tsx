@@ -9,7 +9,7 @@ export function About() {
   return (
     <section
       id="about"
-      className=" max-h-full max-sm:max-h-1/3 py-36 mt-28 max-w-7xl mx-auto flex justify-between items-center px-4"
+      className=" max-h-full max-sm:max-h-1/3 py-20 sm:py-36  max-w-7xl mx-auto flex justify-between items-center px-4"
     >
       <Motion
         delay={0.25}

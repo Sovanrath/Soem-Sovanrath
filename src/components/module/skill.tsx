@@ -8,7 +8,7 @@ export function Skill() {
   return (
     <section
       id="skill"
-      className=" max-h-full max-sm:max-h-1/3 py-20  max-w-7xl mx-auto flex flex-col items-center px-4 gap-10"
+      className=" max-h-full max-sm:max-h-1/3 sm:py-20  max-w-7xl mx-auto flex flex-col items-center px-4 gap-10"
     >
       <Motion
         delay={0.25}
@@ -29,7 +29,7 @@ export function Skill() {
           >
             <Motion
               variants={slideInYVariantsBottom}
-              delay={index * 0.15}
+              delay={index * 0.05}
               className="flex  gap-2.5 sm:gap-2 xs:flex-col "
             >
               <div className="flex items-center justify-center ">
