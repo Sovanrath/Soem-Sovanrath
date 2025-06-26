@@ -26,7 +26,7 @@ export function Hero() {
             delay={0.25}
             className="text-lg md:text-xl max-w-2xl mx-auto mt-4 dark:text-gray-300 text-gray-500"
           >
-            front-end developer
+            Front-End Developer
           </Motion>
           <div className="flex items-center w-full justify-center gap-5 p-5 max-xs:hidden">
             {Contact.map((item, index) => (

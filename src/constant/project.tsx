@@ -17,4 +17,10 @@ export const ProjectData = [
     url: "https://www.bytefarm.dev/",
     link: "",
   },
+  {
+    image: "/crida.png",
+    name: "CridaCambodia",
+    url: "https://www.cridacambodia.org/",
+    link: "",
+  },
 ];
